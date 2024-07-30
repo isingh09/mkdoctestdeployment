@@ -1,0 +1,30 @@
+site_name: ishan test mkdoc deployment
+theme:
+  icon: 
+    repo: fontawesome/brands/git-alt
+  name: material
+  features:
+    - tabs
+    - toc.integrate
+    - content.code.copy
+    - content.code.annotate
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny 
+        name: "Switch to dark mode"
+      primary: white
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/weather-night
+        name: "Switch to light mode"
+      primary: white
+      accent: lime
+
+nav:
+  - Overview: 'index.md'
+
+plugins:
+  - search
